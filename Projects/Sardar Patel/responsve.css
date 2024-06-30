@@ -1,0 +1,27 @@
+@media screen and (max-width : 1000px) and (min-width:900px){
+    .text1{
+        font-size:1.35vw;
+        width:28vw;
+        height: 48vh;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1021.33px){
+    .text1{
+        height:48vh;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    .text1{
+        width: 30vw;
+        height: 47vh;
+        font-size:1.4vw;
+    }
+}
+@media screen and (min-width:600px) and (max-width:700px){
+    .text1{
+        height: 30vh;
+    }
+    .i2{
+        height: 20vh;
+    }
+}

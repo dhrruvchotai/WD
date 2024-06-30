@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url(https://db.onlinewebfonts.com/c/52c9f296ab77b470a7ae0ab2c5bfe000?family=DDT+W00+Condensed+Bold);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* @media (max-width: 807px) {
+    body {
+        overflow-x: hidden;
+    }
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    /* background-color:black; */
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    margin: 0px 0px 0px 16px;
+   
+}
+.logoimg{
+    height: 30px;
+    width: 150px;
+    margin: 13px 0px 13px 0px;
+    /* border: 2px dashed red; */
+}
+/* .l1{
+    font-weight: bold;
+    font-family:"DDT W00 Condensed Bold"; ;
+    height: 30px;
+    width: 150px;
+    margin: 13px 0px 13px 0px; 
+    }
+*/
+
+.icon{
+    /* background-color: blue; */
+    width: 1190px;
+    margin: 0px 16px 0px 16px;
+    /* padding: 0px 16px 0px 16px; */
+    /* border: 2px dashed red; */
+}
+.side{
+    /* background-color: yellow;
+    border: 2px dashed red; */
+    width: 400px;
+    height: 50px;
+    margin: 3px 16px 3px 740px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.serch{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.cart{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.menu{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.simage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.cimage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.pimage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.mimage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+
+.content{
+    height: 500px;
+    width: 100%;
+    margin: 4px 0px 0px 0px;
+    /* background-color:aqua;
+    border: 2px dashed red; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: gray; */
+    background-image: linear-gradient(45deg,rgb(168, 160, 160),rgb(214, 206, 206),rgb(199, 194, 194),rgb(171, 167, 167));
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.text-overlay-1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.adtext .a{
+    margin: 0px 0px 0px -220px;
+     font-family: 'Fira Sans', sans-serif;
+}
+.adtext .b{
+    margin: 50px 0px 0px -410px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.adtext .c{
+    margin: 20px 0px 0px -90px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+}
+.adtext .d{
+    text-decoration: underline;
+    color: black;
+    /* margin-left: 110px; */
+    margin-left: -343px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+.adtext .e{
+    margin-top: 23px;
+    border-radius: 20px;
+    background-color:black ;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.e:hover{
+    background-color:rgb(109, 98, 98);
+}
+.d:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+.adtext .a1{
+    margin: 0px 0px 0px 4000px;
+     font-family: 'Fira Sans', sans-serif;
+}
+.adtext .b1{
+    margin: 50px 0px 0px 3000px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.adtext .c1{
+    margin: 20px 0px 0px 3000px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+}
+.adtext .d1{
+    text-decoration: underline;
+    color: black;
+    /* margin-left: 110px; */
+    margin-left: 3000px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+.adtext .e1{
+    margin-top: 23px;
+    border-radius: 20px;
+    background-color:black ;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 3000px;
+}
+.e1:hover{
+    background-color:rgb(109, 98, 98);
+}
+.d1:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}

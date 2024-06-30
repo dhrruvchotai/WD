@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url(https://db.onlinewebfonts.com/c/52c9f296ab77b470a7ae0ab2c5bfe000?family=DDT+W00+Condensed+Bold);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* @media (max-width: 807px) {
+    body {
+        overflow-x: hidden;
+    }
+} */
+
+body{
+    /* overflow-x: hidden; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    /* background-color:black; */
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    margin: 0px 0px 0px 16px;
+   
+}
+.logoimg{
+    height: 30px;
+    width: 150px;
+    margin: 13px 0px 13px 0px;
+    /* border: 2px dashed red; */
+}
+/* .l1{
+    font-weight: bold;
+    font-family:"DDT W00 Condensed Bold"; ;
+    height: 30px;
+    width: 150px;
+    margin: 13px 0px 13px 0px; 
+    }
+*/
+
+.icon{
+    /* background-color: blue; */
+    width: 1190px;
+    margin: 0px 16px 0px 16px;
+    /* padding: 0px 16px 0px 16px; */
+    /* border: 2px dashed red; */
+}
+.side{
+    /* background-color: yellow;
+    border: 2px dashed red; */
+    width: 400px;
+    height: 50px;
+    margin: 3px 16px 3px 990px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.serch{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.cart{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.menu{
+    height: 40px;
+    width: 40px;
+    margin: 8px 0px 8px 0px;
+}
+.simage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.cimage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.pimage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.mimage{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 5px 0px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 800px;
+}
+
+.bgplay-front-a{
+    height: 100%;
+    width:800px;
+    flex-direction: column;
+}
+
+
+.content{
+    height: 500px;
+    width: 100%;
+    margin: 4px 0px 0px 0px;
+    /* background-color:aqua;
+    border: 2px dashed red; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: gray; */
+}
+.content .adtext{
+    height: 400px;
+    margin: 50px 0px 50px 50px;
+    width: 55%;
+    /* border: 2px dashed red;
+    background-color:darkcyan; */
+}
+
+
+.adtext .a{
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top : 250px;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: "DDT W00 Condensed Bold"; */
+    font-size: 50px;
+}
+.adtext .b{
+    margin-left: -150px;
+    margin-top : 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.adtext .c{
+    margin-left: -98px;
+    margin-top : 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 800px;
+}
+.adtext .d{
+    text-decoration: underline;
+    color: black;
+    margin-left: -75px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.adtext .e{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:black ;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.d:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+.e:hover{
+    background-color:rgb(109, 98, 98);
+}
+
+
+  

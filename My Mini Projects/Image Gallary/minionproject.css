@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    padding: 15% 0% 0% 35%;
+}
+.gallary{
+    width:40%;
+    height:200px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.gallary img{
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.gallary img:hover{
+    width: 100%;
+
+}

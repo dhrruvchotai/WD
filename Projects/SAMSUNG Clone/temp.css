@@ -1,0 +1,58 @@
+.animatio{
+    height: 500px;
+    width: 100%;
+    animation-name: move;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+ @keyframes move {
+    0%{
+       
+        background-image: url(s24phone.jpg);
+        background-repeat: no-repeat;
+      
+       
+    }
+    10%{
+        background-repeat: no-repeat;
+        background-image: url(sam_logo1.png);
+        transform: rotateZ('90deg');
+    }
+
+    30%{
+       
+        background-image: url(samsung_ph1.jpg);
+       
+    }
+    50%{
+       
+        background-image: url(sam_logo3.png);
+       
+    }
+    60%{
+    
+        background-image: url(s24phone.jpg);
+       
+    }
+    70%{
+       
+        background-image: url(sam_logo1.png);
+       
+    }
+    80%{
+       
+        background-image: url(s24phone.jpg);
+       
+    }
+    90%{
+       
+        background-image: url(sam_logo2.png);
+       
+    }
+    100%{
+       
+        background-image: url(s24phone.jpg);
+       
+    }
+   
+ }
